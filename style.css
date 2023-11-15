@@ -1,0 +1,26 @@
+button {
+  width: 24px;
+  border: solid 2px black;
+  padding: 25px;
+  font-size: 15px;
+}
+
+#input {
+  display: flex;
+  justify-content: center;
+}
+
+#root {
+  padding-top: 100px;
+}
+
+@media screen and (max-width: 600px) {
+  #root {
+    width: 100%;
+    max-width: 600px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    box-sizing: border-box;
+  }
+}
